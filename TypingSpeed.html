@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="content container">
+        <h1>
+            T.S.A
+        </h1>
+        <h2 id="time">0:0:0:0</h2>
+        <p id="main"></p>
+        
+        <div class="form-group" id="border">
+            <textarea class="form-control" onkeydown="start()" onkeypress="spellCheck()" id="textarea" type="text" placeholder="Your time Start Imediately you start typing" name=""></textarea>
+        </div>
+            <button class="btn btn-danger" id="btn" onclick="startover()">Start Over</button>
+            <h1 style="font-size: x-large;">
+                T.S.A  <br><small style="font-size: small; margin-top: 5px;">(Typing Speed & Accuracy)</small>
+            </h1>
+            Developed by<i class="fas fa-code"></i> Ola Emma <i class="fas fa-desktop"></i>
+    </div>
+
+    <script src="TypingSpeed.js"></script>
+</body>
+</html>
